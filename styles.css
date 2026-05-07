@@ -71,9 +71,6 @@ body {
     clamp(2rem, -14.429rem + 43.81vw, 25rem);
 }
 
-.testimonials {
-}
-
 .testimonials__cards {
   display: grid;
   grid-column: 1fr;
