@@ -74,7 +74,7 @@ body {
 
 .testimonials__cards {
   display: grid;
-  grid-column: 1fr;
+  grid-template-columns: 1fr;
   gap: 2rem;
 }
 
@@ -82,7 +82,7 @@ body {
   border-radius: 0.5rem;
   padding: 2rem;
   display: grid;
-  grid-column: 1fr;
+  grid-template-columns: 1fr;
   gap: 1rem;
 }
 
@@ -148,18 +148,17 @@ body {
   /* when viewport size is 768px and above */
   body {
     display: grid;
-    grid-column: 1fr;
+    /* grid-template-columns: 1fr; */
     justify-content: center;
   }
 
   .testimonials {
-    width: clamp(40rem, 60vw, 69.5rem);
+    width: clamp(40rem, 90vw, 69.5rem);
   }
 
   .testimonials__cards {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template: 2 / 4;
   }
 
   .card--daniel-position {
