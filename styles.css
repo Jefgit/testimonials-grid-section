@@ -27,6 +27,7 @@
   --Grey-400: hsl(224, 10%, 45%);
   --Grey-500: hsl(217, 19%, 35%);
   --Dark-blue: hsl(219, 29%, 14%);
+  --Blue: hsl(228, 45%, 44%);
   --Black: hsl(0, 0%, 7%);
 }
 
@@ -140,7 +141,7 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Blue);
 }
 
 @media (width >= 48em) {
